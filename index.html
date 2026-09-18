@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#d92839">
+  <meta name="description" content="Aise — l'application qui aide à organiser sa journée, suivre ses repas, programmer des rappels et prendre des décisions.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow">
+  <meta name="color-scheme" content="dark light">
+  <title>Aise — Décide une fois. Vis le reste.</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- Opening cinematic: the red cover splits like a cracked gift wrapper. -->
+  <div class="opening" id="opening" aria-hidden="true">
+    <div class="opening-panel opening-panel-left"></div>
+    <div class="opening-panel opening-panel-right"></div>
+    <div class="opening-crack" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="opening-brand"><span class="logo-mark"></span><strong>Aise</strong><small>Décide une fois. Vis le reste.</small></div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <header class="site-nav" id="siteNav">
+    <a class="logo" href="#top" aria-label="Aise, accueil"><span class="logo-mark"></span><span>Aise</span></a>
+    <nav class="desktop-nav" id="desktopNav" aria-label="Navigation principale">
+      <a href="#problem">Pourquoi</a>
+      <a href="#experience">Expérience</a>
+      <a href="#features">Fonctions</a>
+      <a href="#install">Installer</a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme-button" id="themeButton" type="button" aria-label="Changer de thème" aria-pressed="false">◐</button>
+      <a class="nav-button" href="#install">Découvrir l'app</a>
+      <button class="menu-button" id="menuButton" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="desktopNav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero dark-section section" data-section>
+      <div class="hero-grid">
+        <div class="hero-copy reveal" data-reveal>
+          <div class="eyebrow-row"><p class="kicker">APPLICATION QUOTIDIENNE</p><span class="live-dot"></span><span class="live-label">GRATUITE</span></div>
+          <h1>Décide une fois.<br><span>Vis le reste.</span></h1>
+          <p class="hero-lead">Aise transforme les petites décisions et les rappels dispersés en une seule expérience claire : ta journée, tes repas, tes rappels et les choix qui comptent.</p>
+          <div class="actions">
+            <a class="button button-accent" href="#experience">Explorer Aise <span>↗</span></a>
+            <a class="button button-outline" href="#features">Voir les fonctions</a>
+          </div>
+          <div class="hero-meta"><span>01</span><span>AUJOURD'HUI</span><span>CALORIES</span><span>DÉCIDER</span><span>RAPPELS</span></div>
+        </div>
+
+        <div class="hero-art reveal" data-reveal aria-label="Aperçu visuel de l'application Aise">
+          <div class="art-glow"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="phone-shell app-phone">
+            <div class="phone-status"><span>9:41</span><span>● ● ●</span></div>
+            <div class="phone-screen">
+              <div class="phone-head"><span>AUJOURD'HUI</span><strong>Aise</strong></div>
+              <p class="phone-greeting">Bonjour.</p>
+              <p class="phone-sub">Voici ce qui compte aujourd'hui.</p>
+              <div class="phone-card primary-card"><small>À FAIRE · 10:30</small><strong>Réviser 45 minutes</strong><button type="button" class="mini-action">Fait</button></div>
+              <div class="phone-card secondary-card"><small>REPAS · 12:45</small><strong>Riz + légumes</strong><button type="button" class="mini-action">≈ 742 kcal</button></div>
+              <div class="phone-reminder"><span>SMS</span><div><strong>Rappel activé</strong><small>« Réviser 45 min » à 10:30</small></div><b>ON</b></div>
+              <div class="phone-nav app-bottom-nav" aria-label="Onglets de l'application"><span class="active"><b>⌂</b>Aujourd'hui</span><span><b>◒</b>Calories</span><span><b>✦</b>Décider</span><span><b>◷</b>Rappels</span></div>
+            </div>
+          </div>
+          <div class="floating-tag tag-top"><b>04</b><span>espaces<br>essentiels</span></div>
+          <div class="floating-tag tag-bottom"><span>made for</span><b>real life</b></div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span>SCROLL</span><i></i></div>
+    </section>
+
+    <section id="problem" class="section light-section problem-section" data-section>
+      <div class="section-intro split-intro reveal" data-reveal>
+        <div><p class="kicker">POURQUOI AISE</p><h2>Moins de bruit.<br><em>Plus de journée.</em></h2></div>
+        <p>Aise part d'une idée simple : les petites décisions ne devraient pas occuper autant d'espace mental. L'application rassemble les informations utiles sans transformer ta vie en tableau de bord.</p>
+      </div>
+      <div class="editorial-grid">
+        <article class="number-card reveal" data-reveal><span>01</span><strong>Tu oublies<br>une tâche.</strong><p>Une obligation revient plus tard, puis tu dois y repenser. Aise garde le fil de ce qui compte aujourd'hui.</p><div class="card-line"></div></article>
+        <article class="number-card dark-card reveal" data-reveal><span>02</span><strong>Tu hésites<br>trop longtemps.</strong><p>Deux films, trois repas, plusieurs sorties. Aise structure tes options et les raisons que tu donnes.</p><div class="card-line"></div></article>
+        <article class="number-card accent-card reveal" data-reveal><span>03</span><strong>Tu veux<br>mieux suivre.</strong><p>Repas, calories, rappels et habitudes restent réunis dans une interface conçue comme une vraie app.</p><div class="card-line"></div></article>
+      </div>
+    </section>
+
+    <section id="experience" class="section dark-section experience-section" data-section>
+      <div class="wide-title reveal" data-reveal>
+        <p class="kicker">L'EXPÉRIENCE</p>
+        <h2>Une app pensée<br><span>autour de ta journée.</span></h2>
+      </div>
+      <div class="experience-layout">
+        <article class="feature-story story-large reveal" data-reveal>
+          <div class="story-index">A / 01</div>
+          <div class="story-visual routine-visual">
+            <div class="routine-header"><span>AUJOURD'HUI</span><b>18 SEPT.</b></div>
+            <div class="routine-line"><span>09:00</span><b>Cours / travail</b><i>✓</i></div>
+            <div class="routine-line"><span>10:30</span><b>Réviser 45 min</b><i>SMS</i></div>
+            <div class="routine-line"><span>12:45</span><b>Déjeuner</b><i>742 kcal</i></div>
+            <div class="routine-line active"><span>18:30</span><b>Choisir une sortie</b><i>Décider</i></div>
+          </div>
+          <div class="story-copy"><h3>Aujourd'hui</h3><p>Une vue quotidienne simple : ce qui doit attirer ton attention, dans l'ordre où cela arrive.</p></div>
+        </article>
+        <article class="feature-story story-small reveal" data-reveal>
+          <div class="story-index">A / 02</div>
+          <div class="glass-list"><div><span>◷</span><strong>10:30</strong> Rappel programmé</div><div><span>◒</span><strong>742</strong> kcal estimées</div><div><span>✓</span><strong>01</strong> tâche terminée</div></div>
+          <div class="story-copy"><h3>Rappels</h3><p>Configure une heure et un message. L'expérience est pensée pour les notifications de l'app et, une fois le backend branché, pour les SMS.</p></div>
+        </article>
+        <article class="feature-story story-accent reveal" data-reveal>
+          <div class="story-index">A / 03</div>
+          <div class="decision-orb"><span>2–4</span><small>OPTIONS</small></div>
+          <div class="story-copy"><h3>Décider</h3><p>Pour chaque option, écris pourquoi tu l'envisages. Aise compare les éléments fournis et te propose les choix les plus cohérents avec ton contexte.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section light-section app-preview-section" data-section>
+      <div class="app-preview-heading reveal" data-reveal>
+        <div><p class="kicker">LE DESIGN DE L'APP</p><h2>Le site raconte.<br><em>L'app fait.</em></h2></div>
+        <p>Le site que tu regardes présente Aise. L'utilisation complète commence dans l'application. Le même langage visuel passe de la page web à l'écran du téléphone.</p>
+      </div>
+      <div class="app-showcase reveal" data-reveal>
+        <div class="showcase-phone">
+          <div class="showcase-status"><span>9:41</span><span>● ● ●</span></div>
+          <div class="showcase-screen">
+            <div class="showcase-top"><span>MON ESPACE</span><strong>Aise</strong></div>
+            <div class="showcase-tabs" role="tablist" aria-label="Aperçu des écrans"><button class="active" type="button" data-preview="today">Aujourd'hui</button><button type="button" data-preview="calories">Calories</button><button type="button" data-preview="decide">Décider</button><button type="button" data-preview="reminders">Rappels</button></div>
+            <div class="preview-panel is-active" data-panel="today"><div class="showcase-date">MARDI 18 SEPTEMBRE</div><div class="showcase-task"><small>10:30 · RAPPEL</small><strong>Réviser les maths</strong><span>SMS programmé</span></div><div class="showcase-task"><small>12:45 · REPAS</small><strong>Riz + poulet</strong><span>≈ 742 kcal</span></div><div class="showcase-task"><small>18:30 · DÉCISION</small><strong>Cinéma ou sortie ?</strong><span>2 raisons enregistrées</span></div></div>
+            <div class="preview-panel" data-panel="calories"><div class="metric-hero"><span>REPAS DU JOUR</span><strong>742</strong><small>kcal estimées</small></div><div class="macro-row"><span>Glucides</span><b>82 g</b></div><div class="macro-row"><span>Protéines</span><b>38 g</b></div><div class="macro-row"><span>Lipides</span><b>21 g</b></div><p class="preview-note">Une estimation, pas une mesure médicale.</p></div>
+            <div class="preview-panel" data-panel="decide"><div class="decision-demo"><span>QUE FAIRE CE SOIR ?</span><strong>Cinéma</strong><p>« J'ai envie de sortir. Le film commence à 20h. »</p><div><b>01</b><b>02</b><b>03</b></div><small>PROPOSITION CONTEXTUELLE</small></div></div>
+            <div class="preview-panel" data-panel="reminders"><div class="sms-mini"><span>RAPPEL</span><strong>Réviser 45 minutes</strong><small>18 septembre · 10:30</small><b>SMS PRÊT</b></div><div class="sms-mini ghost"><span>NEXT</span><strong>Choisir une sortie</strong><small>18 septembre · 18:30</small><b>NOTIFICATION APP</b></div></div>
+            <div class="phone-nav app-bottom-nav" aria-label="Navigation de l'application"><span class="active"><b>⌂</b>Aujourd'hui</span><span><b>◒</b>Calories</span><span><b>✦</b>Décider</span><span><b>◷</b>Rappels</span></div>
+          </div>
+        </div>
+        <div class="showcase-copy">
+          <div class="showcase-line"><span>01</span><div><strong>Aujourd'hui</strong><p>Ce que tu dois voir en premier.</p></div></div>
+          <div class="showcase-line"><span>02</span><div><strong>Calories</strong><p>Une estimation claire pour les aliments et repas.</p></div></div>
+          <div class="showcase-line"><span>03</span><div><strong>Décider</strong><p>Options + raisons + proposition contextualisée.</p></div></div>
+          <div class="showcase-line"><span>04</span><div><strong>Rappels</strong><p>Notifications dans l'app et SMS lorsque le service serveur sera connecté.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section dark-section feature-section" data-section>
+      <div class="wide-title reveal" data-reveal><p class="kicker">LES ONGLETS</p><h2>Quatre espaces.<br><span>Une seule logique.</span></h2></div>
+      <div class="feature-mosaic app-feature-mosaic">
+        <article class="mosaic-card reveal" data-reveal><div class="mosaic-top"><span>01</span><b>⌂</b></div><h3>Aujourd'hui</h3><p>Les tâches, événements et priorités de la journée sont visibles immédiatement.</p><div class="mosaic-index">TODAY</div></article>
+        <article class="mosaic-card tall reveal" data-reveal><div class="mosaic-top"><span>02</span><b>◒</b></div><div class="mini-ui calories-ui"><span>REPAS</span><strong>Riz + poulet</strong><i>≈ 742 kcal</i><i>Protéines · 38 g</i><small>ESTIMATION</small></div><h3>Calories</h3><p>Consulte une estimation des calories de ce que tu manges, sans prétendre remplacer une information médicale.</p></article>
+        <article class="mosaic-card accent-mosaic reveal" data-reveal><div class="mosaic-top"><span>03</span><b>✦</b></div><div class="mini-ui decide-ui"><span>QUE FAIRE ?</span><strong>Cinéma</strong><i>« J'ai envie de sortir »</i><i>« Le film commence à 20h »</i><small>ANALYSE</small></div><h3>Décider</h3><p>Deux à quatre options, une raison pour chacune, puis une proposition adaptée aux informations données.</p></article>
+        <article class="mosaic-card reveal" data-reveal><div class="mosaic-top"><span>04</span><b>◷</b></div><h3>Rappels</h3><p>Programme une heure et un message. L'envoi réel de SMS sera sécurisé côté serveur.</p><div class="sms-chip">SMS · 10:30</div></article>
+      </div>
+    </section>
+
+    <section class="section light-section decision-detail" data-section>
+      <div class="decision-detail-grid">
+        <div class="reveal" data-reveal><p class="kicker">LE MOTEUR DE DÉCISION</p><h2>Tu donnes<br><em>le contexte.</em></h2><p class="large-copy">Aise ne choisit pas au hasard. Tu écris ce que tu veux faire et pourquoi chaque option t'intéresse. L'interface transforme ces informations en une proposition lisible.</p></div>
+        <div class="decision-form-demo reveal" data-reveal>
+          <div class="demo-top"><span>EXEMPLE</span><b>3 OPTIONS</b></div>
+          <label>Option 01<input value="Cinéma" readonly></label><label>Pourquoi ?<textarea readonly>J'ai envie de sortir et le film commence à 20h.</textarea></label>
+          <label>Option 02<input value="Rester à la maison" readonly></label><label>Pourquoi ?<textarea readonly>Je suis fatigué et j'ai besoin de calme.</textarea></label>
+          <label>Option 03<input value="Voir des amis" readonly></label><label>Pourquoi ?<textarea readonly>J'aimerais passer du temps avec eux ce soir.</textarea></label>
+          <div class="demo-result"><small>PROPOSITION AISE</small><strong>Cinéma</strong><p>Le contexte fourni correspond le mieux à cette option ce soir.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section reminder-detail" data-section>
+      <div class="wide-title reveal" data-reveal><p class="kicker">RAPPELS</p><h2>Ce que tu programmes<br><span>reste sur le radar.</span></h2></div>
+      <div class="reminder-layout">
+        <div class="sms-visual reveal" data-reveal>
+          <div class="sms-phone-header"><span>MESSAGES</span><b>10:30</b></div>
+          <div class="sms-bubble"><small>AISE · RAPPEL</small><strong>Il est temps de réviser 45 minutes.</strong><span>Message programmé</span></div>
+          <div class="sms-bubble ghost"><small>18:30</small><strong>Choisir une sortie</strong><span>Notification de l'app</span></div>
+        </div>
+        <div class="reminder-copy reveal" data-reveal><p>Aise prépare l'expérience du rappel dans l'application : événement, heure et message. Pour envoyer réellement un SMS, le produit devra utiliser un backend sécurisé et un fournisseur SMS. Le site présente cette expérience sans simuler une connexion inexistante.</p><div class="security-note"><span>01</span><div><strong>Architecture propre</strong><p>Les secrets et les identifiants d'un fournisseur SMS ne doivent jamais être exposés dans le navigateur.</p></div></div><div class="security-note"><span>02</span><div><strong>Contrôle serveur</strong><p>Validation, authentification, limitation des abus et journalisation seront appliquées côté serveur.</p></div></div></div>
+      </div>
+    </section>
+
+    <section class="section light-section manifesto-section" data-section>
+      <div class="manifesto reveal" data-reveal><p class="kicker">L'IDÉE</p><h2>La technologie<br>doit <em>disparaître</em><br>derrière l'usage.</h2><p>Pas besoin d'un écran rempli de chiffres pour savoir quoi faire ensuite. Aise cherche une expérience calme, rapide et utile.</p></div>
+      <div class="manifesto-side reveal" data-reveal><span>AISE / 2026</span><strong>Organiser.<br>Comprendre.<br>Décider.</strong><i></i></div>
+    </section>
+
+    <section class="section dark-section free-section" data-section>
+      <div class="free-layout reveal" data-reveal><div><p class="kicker">SANS FORMULES COMPLIQUÉES</p><h2>Aise est<br><em>gratuit.</em></h2></div><div class="free-copy"><div class="free-number">0 €</div><p>Le site ne contient pas de page de paiement ni de grille de formules. Il sert à présenter l'application et à conduire vers son installation.</p><a href="#install" class="button button-accent">Passer à l'application <span>↗</span></a></div></div>
+    </section>
+
+    <section id="install" class="section light-section install-section" data-section>
+      <div class="install-grid reveal" data-reveal>
+        <div><p class="kicker">DERNIÈRE ÉTAPE</p><h2>Tu as vu Aise.<br><span>Maintenant, utilise-la.</span></h2><p>L'application complète commence ici. Installe Aise sur ton téléphone depuis ce site et retrouve les quatre onglets : Aujourd'hui, Calories, Décider et Rappels.</p><div class="actions"><button class="button button-dark" id="installButton" type="button">Installer Aise <span>↓</span></button><button class="button button-outline-dark" id="replayOpening" type="button">Rejouer l'ouverture</button></div><p class="install-hint" id="installHint">Sur iPhone/iPad : Partager → Ajouter à l'écran d'accueil.</p></div>
+        <div class="install-card"><div class="install-card-number">04</div><strong>UNE APP<br>POUR LA JOURNÉE</strong><div class="install-card-grid"><span>AUJOURD'HUI</span><span>CALORIES</span><span>DÉCIDER</span><span>RAPPELS</span></div><small>Le lien suffit pour commencer l'installation lorsque ton navigateur prend en charge la PWA.</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="logo" href="#top"><span class="logo-mark"></span><span>Aise</span></a><p>Décide une fois. Vis le reste.</p><a class="footer-cta" href="#install">Utiliser l'application ↗</a></div>
+    <div class="footer-bottom"><span>© 2026 Aise</span><span>PWA · gratuit</span><div><a href="#experience">Expérience</a><a href="#features">Fonctions</a><a href="#install">Installation</a><a href="#top">Retour en haut</a></div></div>
+  </footer>
+
+  <script src="/app.js" defer></script>
+  <script src="/register-sw.js" defer></script>
+</body>
+</html>

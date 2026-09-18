@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+
+# This is a static one-page presentation site. Keep normal asset/404 handling;
+# do not rewrite every unknown URL to the homepage.
+[[redirects]]
+  from = "/app/*"
+  to = "/index.html"
+  status = 200
+
+[build.processing]
+  skip_processing = false

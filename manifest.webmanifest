@@ -1,0 +1,13 @@
+{
+  "name": "Aise — Copilote quotidien",
+  "short_name": "Aise",
+  "description": "Décide une fois. Vis le reste.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d0d0e",
+  "theme_color": "#0d0d0e",
+  "lang": "fr",
+  "icons": [{"src":"/assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
